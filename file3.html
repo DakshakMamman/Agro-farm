@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome - AgroFarm</title>
+ <link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="bg-black m-0 p-0 overflow-hidden h-full">
+
+<section 
+  class="relative h-screen bg-cover bg-center flex flex-col justify-between"
+  style="background-image: url('/image/background.png');"
+>
+  <!-- Overlay -->
+  <div class="absolute inset-0 bg-black/50"></div>
+
+  <!-- Top Content -->
+  <div class="relative z-10 text-center px-6 pt-8 md:pt-12">
+    <!-- Logo -->
+    <div class="w-32 h-32 md:w-44 md:h-44 mx-auto 
+                flex items-center justify-center 
+                shadow-2xl mb-4">
+     <img src="./image/logo.png" alt="">
+    </div>
+
+    <!-- Heading -->
+    <h1 class="text-yellow-300 text-3xl md:text-5xl 
+               font-extrabold italic leading-tight mb-6">
+      Welcome To <br class="md:hidden"> AgroFarm
+    </h1>
+
+    <!-- Language Row -->
+    <div class="flex justify-center items-center gap-3 
+                text-white text-sm md:text-base mb-6">
+      <span>Choose Language</span>
+      <span class="opacity-70">≡</span>
+      <button class="underline hover:text-yellow-300 transition">
+        English
+      </button>
+      <button class="underline hover:text-yellow-300 transition">
+        Sinhala
+      </button>
+    </div>
+
+  </div>
+
+  <!-- Middle Cards -->
+  <div class="relative z-10 px-6 py-4">
+
+    <div class="flex flex-row md:flex-row gap-8 justify-center items-center">
+      <!-- Farmer Card -->
+      <div class="text-center">
+        <div class="w-28 h-28 md:w-36 md:h-36 
+                    bg-white/90 rounded-full 
+                    flex items-center justify-center 
+                    shadow-xl mb-4">
+
+          <!-- Simple SVG Icon -->
+          <img src="./image/firsticon.png" alt="">
+        </div>
+        <button class="px-8 py-3 bg-amber-300 hover:bg-amber-400 
+                       text-black font-semibold rounded-full shadow-lg transition">
+          Farmer
+        </button>
+      </div>
+
+      <!-- Dealer Card -->
+      <div class="text-center">
+        <div class="w-28 h-28 md:w-36 md:h-36 
+                    bg-white/90 rounded-full 
+                    flex items-center justify-center 
+                    shadow-xl mb-4">
+
+          <img src="./image/secondicon.png" alt="">
+
+        </div>
+
+        <button class="px-8 py-3 bg-amber-300 hover:bg-amber-400 
+                       text-black font-semibold rounded-full shadow-lg transition">
+          Dealer
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bottom Section -->
+  <div class="relative z-10 text-center px-6 pb-6">
+
+    <p class="text-white text-sm mt-4 md:text-base mb-4 opacity-90">
+      We're popular in agriculture market globally
+    </p>
+    <a href="file4.html">
+    <button class="px-10 py-3 bg-yellow-400 hover:bg-yellow-500 
+                   text-black font-semibold rounded-full shadow-xl transition">
+      Discover More
+    </button>
+    </a>
+
+    <!-- Bottom Indicator -->
+    <div class="flex justify-center mt-4">
+      <div class="w-24 h-1 bg-white/80 rounded-full"></div>
+    </div>
+
+  </div>
+
+</section>
+
+</body>
+</html>

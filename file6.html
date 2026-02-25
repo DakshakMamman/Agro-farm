@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Marketplace</title>
+<link rel="stylesheet" href="./src/output.css">
+</head>
+
+<body class="bg-[#eef3f1] font-sans">
+
+<!-- ================= HERO ================= -->
+<section class="relative h-56 md:h-72 lg:h-80 bg-cover bg-center"
+style="background-image: url('./image/market-bg.png');">
+  <div class="absolute inset-0 bg-black/40"></div>
+</section>
+
+
+<!-- ================= CONTENT ================= -->
+<section class="max-w-7xl mx-auto px-4 md:px-10 lg:px-20 py-8">
+  <!-- Header + Filters -->
+  <div class="flex flex-col mt-3 md:flex-row md:items-center md:justify-between gap-4 mb-8">
+    <h2 class="text-2xl md:text-3xl font-bold text-gray-800">
+      Featured Products
+    </h2>
+
+    <div class="flex gap-3">
+      <button class="px-5 py-2 rounded-full bg-green-600 text-white text-sm font-medium">
+        All
+      </button>
+      <button class="px-6 rounded-full border border-gray-400 text-gray-700 text-sm">
+        Organic
+      </button>
+      <button class="px-6 rounded-full border border-gray-400 text-gray-700 text-sm">
+        NPK
+      </button>
+    </div>
+  </div>
+
+
+  <!-- ================= PRODUCTS GRID ================= -->
+
+  <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8">
+
+    <!-- PRODUCT CARD -->
+    <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition">
+
+      <div class="flex flex-col items-center gap-6">
+
+        <!-- Image -->
+        <img src="./image/fertilizer1.png"
+             class="w-48 h-auto object-contain" />
+
+        <!-- Info -->
+        <div class="flex-1 text-center">
+
+          <p class="text-sm text-gray-400 uppercase tracking-wide">
+            Organic
+          </p>
+
+          <h3 class="text-2xl font-bold text-gray-900 mt-1">
+            NPK -0:0:50
+          </h3>
+
+          <p class="text-green-600 text-xl font-semibold mt-2">
+            Rs.2400/=
+          </p>
+          <a href="#">
+          <button class="mt-4 px-8 py-3 bg-orange-400 text-white font-medium
+                         rounded-full hover:bg-orange-500 transition
+                         flex items-center justify-center gap-2 w-full">
+            🛍 SHOP NOW
+          </button>
+          </a>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- PRODUCT CARD -->
+    <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition">
+
+      <div class="flex flex-col items-center gap-6">
+
+        <img src="./image/fertilizer2.png"
+             class="w-48 h-auto object-contain" />
+
+        <div class="flex-1 text-center">
+
+          <p class="text-sm text-gray-400 uppercase tracking-wide">
+            Organic
+          </p>
+
+          <h3 class="text-2xl font-bold text-gray-900 mt-1">
+            NPK -15:15:15
+          </h3>
+
+          <p class="text-green-600 text-xl font-semibold mt-2">
+            Rs.1500/=
+          </p>
+
+          <a href="#">
+          <button class="mt-4 px-8 py-3 bg-orange-400 text-white font-medium
+                         rounded-full hover:bg-orange-500 transition
+                         flex items-center justify-center gap-2 w-full">
+            🛍 SHOP NOW
+          </button>
+          </a>
+
+        </div>
+      </div>
+    </div>
+
+
+    <!-- PRODUCT CARD -->
+    <div class="bg-white rounded-2xl p-6 shadow-sm hover:shadow-lg transition">
+
+      <div class="flex flex-col items-center gap-6">
+
+        <img src="./image/fertilizer1.png"
+             class="w-48 h-auto object-contain" />
+
+        <div class="flex-1 text-center">
+
+          <p class="text-sm text-gray-400 uppercase tracking-wide">
+            Organic
+          </p>
+
+          <h3 class="text-2xl font-bold text-gray-900 mt-1">
+            NPK -19:19:19
+          </h3>
+
+          <p class="text-green-600 text-xl font-semibold mt-2">
+            Rs.800/=
+          </p>
+
+          <a href="#">
+          <button class="mt-4 px-8 py-3 bg-orange-400 text-white font-medium
+                         rounded-full hover:bg-orange-500 transition
+                         flex items-center justify-center gap-2 w-full">
+            🛍 SHOP NOW
+          </button>
+          </a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AgroFarm</title>
+<link rel="stylesheet" href="./src/output.css">
+</head>
+<body class="bg-black">
+
+<section 
+  class="relative min-h-screen bg-cover bg-center flex flex-col justify-between"
+  style="background-image: url('/image/background.png');"
+>
+
+  <!-- Dark Overlay -->
+  <div class="absolute inset-0 bg-black/50"></div>
+
+  <!-- Content -->
+  <div class="relative z-10 flex flex-col items-center text-center px-6 pt-16 md:pt-24">
+
+    <!-- Logo -->
+    <div class="w-44 h-44 md:w-60 md:h-60 
+                flex items-center justify-center 
+                shadow-2xl mb-10">
+
+    <img src="./image/logo.png" alt="">
+    </div>
+
+    <!-- Description -->
+    <p class="text-white text-base md:text-xl 
+              max-w-md md:max-w-2xl leading-relaxed">
+      Explore our vibrant marketplace where farmers and dealers converge 
+      to exchange a diverse array of agricultural products.
+    </p>
+
+  </div>
+
+  <!-- Buttons Section -->
+  <div class="relative z-10 px-6 pb-12">
+
+    <div class="flex flex-row sm:flex-col gap-3 justify-center items-center">
+      <!-- Discover Button -->
+       <a href="file2.html">
+      <button class="w-full sm:w-auto px-8 py-3 bg-green-500 hover:bg-green-600 text-white font-semibold rounded-full shadow-lg transition">
+        Discover More
+      </button>
+      </a>
+
+      <!-- Skip Button -->
+      <button class="w-full sm:w-auto px-8 py-3 
+                     bg-yellow-400 hover:bg-yellow-500 
+                     text-black font-semibold 
+                     rounded-full shadow-lg transition">
+        Skip &nbsp; >>
+      </button>
+
+    </div>
+
+    <!-- Bottom Indicator -->
+    <div class="flex justify-center mt-10">
+      <div class="w-24 h-1 bg-white/80 rounded-full"></div>
+    </div>
+
+  </div>
+
+</section>
+
+</body>
+</html>
