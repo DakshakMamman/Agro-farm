@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>Product Page</title>
+</head>
+<body class="bg-gray-100">
+
+  <!-- Header -->
+  <div class="flex items-center p-4 bg-white shadow-sm">
+    <a href="file6.html"><button class="text-2xl border border-2 bg-gray-200 p-4 rounded-full hover:bg-gray-300">&#8592;</button></a>
+  </div>
+
+  <!-- Desktop Layout -->
+  <div class="hidden lg:flex max-w-6xl mx-auto py-8 px-6">
+    <div class="flex gap-8 w-full">
+      
+      <!-- Left Column - Image -->
+      <div class="flex-1 bg-white rounded-2xl p-8 shadow-sm">
+        <div class="flex justify-center items-center h-full">
+          <img 
+            src="./image/fertilizer1.png" 
+            alt="NPK 15:15:15"
+            class="w-full max-w-md object-contain"
+          />
+        </div>
+      </div>
+
+      <!-- Right Column - Details -->
+      <div class="flex-1 bg-white rounded-2xl p-8 shadow-sm">
+        
+        <!-- Title -->
+        <h1 class="text-3xl font-bold mb-4">
+          NPK -15:15:15
+        </h1>
+
+        <!-- Price -->
+        <div class="text-2xl font-bold text-green-600 mb-6">
+          RS.1500/=
+        </div>
+
+        <!-- Description Section -->
+        <div class="mb-8">
+          <h2 class="text-lg font-semibold mb-3 text-gray-800">Product Description</h2>
+          <p class="text-gray-600 leading-relaxed mb-4">
+            NPK Prime 18:06:18+S+Mg Fertilizer is a premium balanced fertilizer specially formulated for vegetables, fruits, and flowers. This comprehensive nutrient solution provides essential macronutrients along with sulfur and magnesium for optimal plant growth.
+          </p>
+          <p class="text-gray-600 leading-relaxed mb-4">
+            Available in convenient packaging sizes: 100g, 200g, 500g, and 1kg to suit various gardening and agricultural needs.
+          </p>
+        </div>
+
+        <!-- Features Section -->
+        <div class="mb-8">
+          <h2 class="text-lg font-semibold mb-3 text-gray-800">Key Features</h2>
+          <ul class="space-y-2 text-gray-600">
+            <li class="flex items-start">
+              <span class="text-green-500 mr-2">✓</span>
+              Balanced NPK ratio for comprehensive nutrition
+            </li>
+            <li class="flex items-start">
+              <span class="text-green-500 mr-2">✓</span>
+              Enriched with sulfur and magnesium
+            </li>
+            <li class="flex items-start">
+              <span class="text-green-500 mr-2">✓</span>
+              Suitable for vegetables, fruits, and flowers
+            </li>
+            <li class="flex items-start">
+              <span class="text-green-500 mr-2">✓</span>
+              Multiple packaging options available
+            </li>
+          </ul>
+        </div>
+
+        <!-- Quantity Selector -->
+        <div class="mb-8">
+          <h3 class="text-lg font-semibold mb-3 text-gray-800">Quantity</h3>
+          <div class="flex items-center space-x-4">
+            <button class="w-10 h-10 flex items-center justify-center border-2 border-gray-300 rounded-full hover:bg-gray-100 transition">
+              <span class="text-lg">-</span>
+            </button>
+            <span class="text-xl font-medium w-12 text-center">01</span>
+            <button class="w-10 h-10 flex items-center justify-center border-2 border-gray-300 rounded-full hover:bg-gray-100 transition">
+              <span class="text-lg">+</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Buttons -->
+        <div class="flex gap-4">
+        <a href="./file8.html">
+          <button class="flex-1 bg-green-500 text-white py-4 rounded-xl font-semibold hover:bg-green-600 transition text-lg">
+            Buy Now
+          </button>
+          </a>
+          <button class="flex-1 bg-yellow-600 text-white py-4 rounded-xl font-semibold hover:bg-yellow-700 transition text-lg">
+            Add to Cart
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile Layout (Original) -->
+  <div class="lg:hidden">
+
+  <!-- Product Image -->
+  <div class="flex justify-center bg-white">
+    <img 
+      src="./image/fertilizer1.png" 
+      alt="NPK 15:15:15"
+      class="w-64 md:w-96 object-contain"
+    />
+  </div>
+
+  <!-- Product Details Card -->
+  <div class="bg-gray-100 rounded-t-3xl -mt-6 p-6 shadow-inner">
+
+    <!-- Title -->
+    <h1 class="text-2xl font-bold mb-4">
+      NPK -15:15:15
+    </h1>
+
+    <!-- Description -->
+    <p class="text-gray-600 mb-6 leading-relaxed">
+      NPK Prime 18:06:18+S+Mg Fertilizer For Vegetables Fruits 
+      and Flowers 100g 200g 500g 1kg.This comprehensive nutrient solution provides essential macronutrients along with sulfur and magnesium for optimal plant growth.
+    </p>
+
+    <!-- Quantity + Price Row -->
+    <div class="flex items-center justify-between mb-8">
+
+      <!-- Quantity Selector -->
+      <div class="flex items-center space-x-4">
+        <button class="w-8 h-8 flex items-center justify-center border rounded-full text-lg">
+          +
+        </button>
+        <span class="text-lg font-medium">01</span>
+        <button class="w-8 h-8 flex items-center justify-center border rounded-full text-lg">
+          -
+        </button>
+      </div>
+
+      <!-- Price -->
+      <div class="text-xl font-bold">
+        RS.1500/=
+      </div>
+
+    </div>
+
+    <!-- Buttons -->
+    <div class="flex gap-4">
+        <a href="file8.html">
+      <button class="flex-1 bg-green-500 text-white py-3 rounded-xl font-semibold hover:bg-green-600 transition">
+        Buy Now
+      </button>
+      </a>
+      <a href="#">
+      <button class="flex-1 bg-yellow-600 text-white py-3 rounded-xl font-semibold hover:bg-yellow-700 transition">
+        Add to Cart
+      </button>
+      </a>
+    </div>
+
+  </div>
+
+  </div>
+
+</body>
+</html>
